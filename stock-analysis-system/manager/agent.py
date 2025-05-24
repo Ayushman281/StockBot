@@ -39,7 +39,16 @@ agent = Agent(
     
     3. You MUST complete ALL steps in sequence without stopping.
     
-    4. After completing all steps, provide a comprehensive response.
+    4. After completing all steps, provide a comprehensive response. It must include:
+    - The identified ticker symbol
+    - The current price
+    - The last recoprded price in the timeframe requested
+    - The price change in the timeframe requested (e.g., 1 day, 1 week)
+    - The price change percentage
+    - The latest news headlines
+    - The analysis of the stock movement based on price and news data
+    - A clear explanation of the likely reasons for the stock movement
+
     
     IMPORTANT: When control returns from identify_ticker, IMMEDIATELY begin the analysis workflow.
     

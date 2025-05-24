@@ -49,6 +49,20 @@ agent = Agent(
     - The analysis of the stock movement based on price and news data
     - A clear explanation of the likely reasons for the stock movement
 
+    The  final output must bne like this:
+    - Ticker Symbol: AAPL
+    - Timeframe: 1 week
+    - Current Price: $175.30
+    - Last Recorded Price (1 week ago): $170.00
+    - Latest News Headlines:
+        1. "Apple Unveils New iPhone Model"
+        2. "Apple Reports Record Quarterly Earnings"
+        3. "Analysts Upgrade Apple Stock Rating"
+    - Analysis: The stock price increased steadily over the week, driven by strong earnings and positive product announcements.
+    - Likely Reasons: Investor optimism following the new iPhone launch and better-than-expected earnings.
+
+     
+
     
     IMPORTANT: When control returns from identify_ticker, IMMEDIATELY begin the analysis workflow.
     
